@@ -105,12 +105,12 @@ const products = [
 ]
 products.forEach((e)=>{
     if(e.category == 'instagram'){
-    instagramBox.innerHTML += `<a href="/productPage.html?id=${e.id}"><div style="background-image: url(${e.image})" class="insta_card card" id="insta_card${e.id}"></div></a>`
+    instagramBox.innerHTML += `<a href="/socialbird/productPage.html?id=${e.id}"><div style="background-image: url(${e.image})" class="insta_card card" id="insta_card${e.id}"></div></a>`
     }
     else if(e.category == 'facebook'){
-        facebookBox.innerHTML += `<a href="/productPage.html?id=${e.id}"><div style="background-image: url(${e.image})" class="facebook_card" id="facebook_card${e.id}"></div></a>`
+        facebookBox.innerHTML += `<a href="/socialbird/productPage.html?id=${e.id}"><div style="background-image: url(${e.image})" class="facebook_card" id="facebook_card${e.id}"></div></a>`
     }
     else if(e.category == 'youtube'){
-        youtubeBox.innerHTML += `<a href="/productPage.html?id=${e.id}"><div style="background-image: url(${e.image})" class="youtube_card" id="youtube_card${e.id}"></div></a>`
+        youtubeBox.innerHTML += `<a href="/socialbird/productPage.html?id=${e.id}"><div style="background-image: url(${e.image})" class="youtube_card" id="youtube_card${e.id}"></div></a>`
     }    
 })

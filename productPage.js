@@ -129,7 +129,7 @@ function displayProductInfo(product) {
         <div class="product-details">
             <h1 class="product-title">${product.title}</h1>
             <h2 class="product-price">Price: ₹ ${product.price}</h2>
-            <a href="/payment.html?id=${productId}" class="buy-now">Buy Now</a>
+            <a href="/socialbird/payment.html?id=${productId}" class="buy-now">Buy Now</a>
             <p>${product.description}</p>
         </div>`;
         

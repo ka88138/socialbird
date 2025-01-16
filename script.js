@@ -105,7 +105,7 @@ const products = [
 ]
 products.forEach((e)=>{
     if(e.category == 'instagram'){
-    instagramBox.inneHTML += `<a href="/socialbird/productPage.html?id=${e.id}"><div style="background-image: url(${e.image})" class="insta_card card" id="insta_card${e.id}"></div></a>`
+    instagramBox.innerHTML += `<a href="/socialbird/productPage.html?id=${e.id}"><div style="background-image: url(${e.image})" class="insta_card card" id="insta_card${e.id}"></div></a>`
     }
     else if(e.category == 'facebook'){
         facebookBox.innerHTML += `<a href="/socialbird/productPage.html?id=${e.id}"><div style="background-image: url(${e.image})" class="facebook_card" id="facebook_card${e.id}"></div></a>`

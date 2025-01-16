@@ -113,7 +113,7 @@ const productPage = document.querySelector('.product-page');
 // Function to get the product ID from the URL
 function getProductIdFromUrl() {
     const urlParams = new URLSearchParams(window.location.search);
-    console.dir(urlParams);
+    console.log(urlParams);
     return urlParams.get('id');
 
 }

@@ -103,7 +103,7 @@ const products = [
         image:'89RS.013.jpeg'
     }
 ]
-
+/*product pages*/
 products.forEach((e)=>{
     if(e.category == 'instagram'){
     instagramBox.innerHTML += `<a href="/socialbird/productPage.html?id=${e.id}"><div style="background-image: url(${e.image})" class="insta_card card" id="insta_card${e.id}"></div></a>`
